@@ -15,6 +15,12 @@ body {
     margin: 0;
 }
 
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;
+}
+
 h1 {
     font-size: 2rem;
     color: var(--bg-color);
@@ -33,15 +39,27 @@ nav a {
      margin: 0 2rem 1rem 0rem;
      font-size: 1.2rem;
 }
-header {
-    background-color: var(--primary-color);
-    text-align: center;
-    padding: 1px;
-}
+
 nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
+}
+
+.grafico {
+    margin: 5rem;
+}
+
+.grafico-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secondary-color) solid 2px;
+}
+
+span {
+    font-weight: bold;
+    color: var(--secondary-color);
 }
 
 footer {
