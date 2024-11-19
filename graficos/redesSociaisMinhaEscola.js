@@ -1,4 +1,4 @@
-import { criar criarGraficos, getCSS, incluirTexto } from "./common.js"
+import { criarGraficos, getCSS, incluirTexto } from "./common.js"
 
 async function redesSociaisFavoritasMinhaEscola() {
     const dadosLocaisString = localStorage.getItem('respostaRedesSociais')

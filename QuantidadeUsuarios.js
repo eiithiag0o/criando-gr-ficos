@@ -33,6 +33,7 @@ const laytout = {
     xaxis: {
         tickfont: tickConfig,
         title: {
+
             Text: 'nome das redes',
             font: {
                 color: getCSS('--secondary-color')
@@ -55,5 +56,3 @@ grafico.className = 'grafico'
 document.getElementById('grafico-conatiner').appendChild,(grafico)
 Plotly.newPlot(grafico, data, laytout)
 }
-
-QuantidadeUsuariosPorRede()
